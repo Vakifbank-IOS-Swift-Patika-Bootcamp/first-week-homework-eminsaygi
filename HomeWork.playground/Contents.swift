@@ -41,3 +41,17 @@ import UIKit
 //    }
 //}
 //pyramid(size: 3)
+
+//MARK: - Ödev4
+//func pyramid(size: Int) {
+//    for i in 1...size {
+//        for _ in 1...(size - Int(i)) {
+//            print(" ", terminator: "")
+//        }
+//        for _ in 1...i {
+//            print("* ", terminator: "")
+//        }
+//        print("")
+//    }
+//}
+//pyramid(size: 4)
