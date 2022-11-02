@@ -31,3 +31,13 @@ import UIKit
 //}
 //print(countElements(array: ["A","B","C","C",1,2,3,3,4]))
 
+//MARK: - Ödev3
+//func pyramid(size: Int) {
+//    for i in 1...size {
+//        for _ in 1...i {
+//            print("*", terminator: "")
+//        }
+//        print("")
+//    }
+//}
+//pyramid(size: 3)
