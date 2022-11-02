@@ -56,3 +56,48 @@ import UIKit
 //    }
 //}
 //pyramid(size: 4)
+
+//MARK: - Ödev5
+//Challenge 1
+//var sum = 0
+//for i in 1..<1000 {
+//    if i % 3 == 0 || i % 5 == 0 {
+//        sum += i
+//    }
+//}
+//print(sum)
+
+//Challenge2
+//func fibonacci() -> Int {
+//    var sum = 0
+//    var a = 1
+//    var b = 2
+//    while b < 4000000 {
+//        if b % 2 == 0 {
+//            sum += b
+//        }
+//        let c = a + b
+//        a = b
+//        b = c
+//    }
+//    return sum
+//}
+
+//Challenge3
+//func largestPrimeFactor(number: Int) -> Int {
+//    var number = number
+//    var largestPrime = 0
+//    var i = 2
+//    while i <= number {
+//        if number % i == 0 {
+//            largestPrime = i
+//            number /= i
+//        } else {
+//            i += 1
+//        }
+//    }
+//    return largestPrime
+//}
+//print(largestPrimeFactor(number: 600851475143))
+
+
